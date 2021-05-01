@@ -1,4 +1,4 @@
-import pandas as pd
+#import pandas as pd
 
 import requests
 import json
@@ -14,6 +14,6 @@ for state, state_data in response_info.items():
 
 
 
-covid_data= pd.DataFrame(data=response_info.items(), columns=['StateName','District'])#,'Active','Confirmed','Deciesed','Removed'])
-covid_data.head(10)   
-print(covid_data)
+#covid_data= pd.DataFrame(data=response_info.items(), columns=['StateName','District'])#,'Active','Confirmed','Deciesed','Removed'])
+#covid_data.head(10)   
+#print(covid_data)
